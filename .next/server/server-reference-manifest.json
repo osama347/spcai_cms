@@ -2,111 +2,155 @@
   "node": {
     "24b99b81067df03a029578dfee27469dbc01ae08": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "421bf664e94ebd865d5e5a9875b53830a95af643": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "5d51db147b86588c8baa2ef245163cd749556f95": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "68e5d738782fa7b5cd03b4f1507e049d8a46fc51": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "8d9b7a840a7c37a33d6f394203d2887c34e56f06": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "a3e5a5b3301081ed93bbf990158515449246270d": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "ac170912cf4f0c9894f502171952a67817dade5a": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "c70ea2bb607212c57d5245ed17c8fafeef86b9f0": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "e1ddf9f8a88717925e7fe75ed2ad153147f957c3": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "e2bdafa2d96140d9db5231869cf410c4a27ff1e4": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
     "fb4576a6834bd5ab074ca83b804200af7902ffa7": {
       "workers": {
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!",
         "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CSPCAI%5C%5Cspcai_cms%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signInAction%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22%24%24ACTION_2%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_1%22%2C%22default%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/protected/page": "rsc",
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/_not-found/page": "rsc",
         "app/dashboard/page": "rsc"
       }
     },
@@ -144,5 +188,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "VC1/mU4//54GY8Fgpb2N+1SJyU1XF6qvf+SYJRebO3A="
+  "encryptionKey": "GNn5+nGl/qUWQVndkVR2uEvTuXZw9pWo/Qw+kv2hGaI="
 }

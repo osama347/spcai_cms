@@ -728,6 +728,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .block {
   display: block;
 }
@@ -893,9 +896,6 @@ video {
 .w-\[1200px\] {
   width: 1200px;
 }
-.w-\[180px\] {
-  width: 180px;
-}
 .w-full {
   width: 100%;
 }
@@ -942,6 +942,9 @@ video {
 }
 .max-w-sm {
   max-width: 24rem;
+}
+.max-w-3xl {
+  max-width: 48rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -991,6 +994,30 @@ video {
 }
 .animate-typing {
   animation: typing 3.5s steps(40, end) forwards;
+}
+@keyframes bounce {
+
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 .cursor-default {
   cursor: default;
@@ -1455,6 +1482,9 @@ video {
 .capitalize {
   text-transform: capitalize;
 }
+.italic {
+  font-style: italic;
+}
 .leading-none {
   line-height: 1;
 }
@@ -1633,6 +1663,9 @@ video {
 }
 .duration-200 {
   animation-duration: 200ms;
+}
+.running {
+  animation-play-state: running;
 }
 
 .file\:border-0::file-selector-button {
